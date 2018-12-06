@@ -1,1 +1,41 @@
 拦截器
+
+interceptor.ts
+
+```
+import {HttpEvent, HttpInterceptor, HttpHandler, HttpRequest} from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+export class _HttpInterceptor implements HttpInterceptor {
+
+  intercept(req: HttpRequest<any>, next: HttpHandler):
+    Observable<HttpEvent<any>> {
+    return next.handle(req);
+  }
+  
+  
+}
+```
+
+#### 暴露 _HttpInterceptor 类
+
+intercept(req, next) 拦截器方法，每次发送请求时执行
+
+* req: HttpRequest<any> http请求
+  
+  * req.clone({url: newUrl, body: newBody || null, setHeaders: {Authorization: token}})  // 修改请求参数
+  
+* next: HttpHandler 错误处理
+
+  * next.handle(newReq) // 发送拦截后的请求
+
+
+#### 注册拦截器
+
+`providers: { provide: HTTP_INTERCEPTORS, useClass: _HttpInterceptor, multi: true }`
+
+httpHandler
+
+httpEvent
+
+app/http/interceptors/index.ts
