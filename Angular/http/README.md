@@ -39,3 +39,12 @@ httpHandler
 httpEvent
 
 app/http/interceptors/index.ts
+
+
+#### Observable
+
+作用： 在发布与订阅间传递消息
+
+申明式的，发布时不会执行函数，被订阅后执行
+
+subscribe（next, error, complete）
