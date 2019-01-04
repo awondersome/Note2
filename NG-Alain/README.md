@@ -26,6 +26,42 @@ const routes: Routes = [{
 ```
 
 
+#### st
+
+##### data
+
+`[data] = "url"` 数据源
+
+
+##### req
+
+`[req] = ""` 请求配置
+
+
+##### res
+
+`[res] = ""` 接收配置
+
+
+##### columns
+
+```
+[columns] = {
+  title: '', // 列名
+  index: '', // key
+  buttons: [
+    {
+      text: '' // 按钮名
+    }
+  ],
+  format: (record.index) => {return ''}, // 格式化数据
+}
+```
+
+
+
+
+
 #### sf
 
 ##### JSON Schema
