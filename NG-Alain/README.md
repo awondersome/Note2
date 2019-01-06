@@ -1,5 +1,16 @@
 基于angular和ng-zorro
 
+#### 新增页面
+
+ng g ng-alain:module moduleName // 新建模块
+
+ng g ng-alain:list pageName -m=moduleName // 新建页面
+
+```
+list: 列表页
+curd: 带编辑和查看的列表页
+```
+
 #### 菜单
 
 `src\app\core\startup\startup.service.ts`
