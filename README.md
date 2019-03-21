@@ -14,3 +14,6 @@ api服务ts应该接收一个observable并返回一个observable，统一封装a
 ``return this.http.post(url, data)``
 
 http服务ts返回一个observable
+
+
+angular ng-zorro ng-alain ionic
