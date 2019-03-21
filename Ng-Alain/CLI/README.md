@@ -9,7 +9,7 @@ ng add ng-alain // 添加alain脚手架
 ### ng g 新建页面
 
 ```
-ng g ng-alain:[command name] [name] [options]
+ng g ng-alain:[command] [name] [options]
 ```
 
 #### [command name]
