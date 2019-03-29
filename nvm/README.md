@@ -23,3 +23,4 @@ nvm-setup.zip 安装版
 安装node，nvm install <version>
   
 切换node，nvm use <version>
+
