@@ -39,3 +39,22 @@ angular
 `[(ngModle)]`
 
 `#name="ngModel"`
+
+
+## 路由
+
+根html设置<base href="/">
+
+app.module
+
+```
+@NgModule({
+  imports: [
+    RouterModule.forRoot([{path: '', loadChilren: ''}],  { preloadingStrategy: PreloadAllModules })
+  ]
+})
+```
+
+<router-outlet></router-outlet>
+
+routerLink
