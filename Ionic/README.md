@@ -26,4 +26,15 @@ ion-back-button
 
 ## Theme 主题系统
 
+### mode模式
+
+不同平台会加载不同的样式
+
+### css变量
+
 使用全新的css变量，var()可以使用其他变量的值，setProperty()可以使用动态设置变量的值，getPropertyValue可以获取变量的值
+
+
+### color属性
+
+仅应用于组件
