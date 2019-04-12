@@ -31,7 +31,11 @@
 
 * ionViewDidLeave
 
+## ion-tabs
 
+## ion-tab-bar
+
+## ion-tab-button
 
 
 ## ion-input
