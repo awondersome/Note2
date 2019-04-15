@@ -33,24 +33,29 @@
 
 ## ion-tabs
 
-## ion-tab-bar
+### ion-tab-bar
 
-## ion-tab-button
+### ion-tab-button
 
 
-## ion-input
+## ion-grid
 
-### clearInput
+*必须配合row*
 
-### clearOnEdit
+### ion-row 
 
-## ion-grid 必须配合row
+*必须配合col*
 
-### ion-row 必须配合col
+### ion-col 
 
-### ion-col 可以嵌套row
+*可以嵌套row*
 
 * size
 
   * auto
   * number 可以小数
+## ion-input
+
+### clearInput
+
+### clearOnEdit
