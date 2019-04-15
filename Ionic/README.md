@@ -23,6 +23,20 @@ ion-tab => ion-tab-bar
 
 ion-back-button
 
+## 全局
+
+### config
+
+```
+// app.module
+
+IonicModule.forRoot({config: config})
+```
+
+* backButtonText 返回按钮文本
+
+* mode 平台模式
+
 
 ## Theme 主题系统
 
