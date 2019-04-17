@@ -38,6 +38,31 @@
 ### ion-tab-button
 
 
+## ModalController
+
+```
+constructor(public modalController: ModalController) {}
+
+async function() {
+ const modal = await this.modalController.create({option})
+ return await modal.present()
+}
+
+```
+
+* create
+
+  * component
+  * componentProps
+  * cssClass
+  * mode
+
+## ion-backdrop
+
+*默认opacity=0.01*
+
+
+
 ## ion-grid
 
 *必须配合row*
