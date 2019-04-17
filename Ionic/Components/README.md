@@ -79,8 +79,16 @@ async function() {
 
   * auto
   * number 可以小数
+  
+  
 ## ion-input
 
-### clearInput
+* clearInput
 
-### clearOnEdit
+* clearOnEdit
+
+## ion-radio-group
+
+### ion-radio
+
+* checked
