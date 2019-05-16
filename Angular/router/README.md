@@ -55,3 +55,10 @@ router.events
 
 
 ## Location
+
+
+## data 固定传参
+
+## params 必选传参
+
+## queryparams 可选传参
