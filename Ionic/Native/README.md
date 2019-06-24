@@ -16,7 +16,7 @@ constructor(private camera: Camera) { }
 getPicture(options?: CameraOptions): Promise<any>
 ```
 
-+ 配置
+  > 配置
   ```
   CameraOptions
   ```
