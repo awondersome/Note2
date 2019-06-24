@@ -11,14 +11,12 @@ import { Camera } from '@ionic-native/camera/ngx';
 constructor(private camera: Camera) { }
 ```
 
-+ getPicture(options?: CameraOptions): Promise<any>
-  ```
-  /**
-   *  配置
-   */
-  ```
++ 获取图片
+```
+getPicture(options?: CameraOptions): Promise<any>
+```
 
-  + CameraOptions
+    + CameraOptions
 
     ```
     /**
