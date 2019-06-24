@@ -13,9 +13,9 @@ constructor(private camera: Camera) { }
 
 + 获取图片
 
-```
-getPicture(options?: CameraOptions): Promise<any>
-```
+   ```
+   getPicture(options?: CameraOptions): Promise<any>
+   ```
 
    + CameraOptions
 
