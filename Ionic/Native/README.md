@@ -19,24 +19,24 @@ constructor(private camera: Camera) { }
 
    + CameraOptions
 
-    ```
-    /**
-     * 像素范围 0-100. Default is 50
-     */
+       ```
+       /**
+        * 像素范围 0-100. Default is 50
+        */
 
-    quality?: number;
-    ```
+       quality?: number;
+       ```
 
 
-    ```
-    /**
-     *      DATA_URL : 0,   Return image as base64-encoded string,
-     *      FILE_URI : 1,   Return image file URI,
-     *      NATIVE_URI : 2  Return image native URI
-     */
+       ```
+       /**
+        *      DATA_URL : 0,   Return image as base64-encoded string,
+        *      FILE_URI : 1,   Return image file URI,
+        *      NATIVE_URI : 2  Return image native URI
+        */
 
-    destinationType?: number;
-    ```
+       destinationType?: number;
+       ```
 
 
 
