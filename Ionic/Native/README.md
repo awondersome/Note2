@@ -1,3 +1,48 @@
+## Camera
+
+```
+ionic cordova plugin add cordova-plugin-camera
+npm install @ionic-native/camera
+```
+
+```
+import { Camera } from '@ionic-native/camera/ngx';
+
+constructor(private camera: Camera) { }
+```
+
++ 获取图片
+```
+getPicture(options?: CameraOptions): Promise<any>
+```
+
+  + 配置
+  ```
+  CameraOptions
+  ```
+
+  ```
+  /**
+   * 像素范围 0-100. Default is 50
+   */
+   
+  quality?: number;
+  ```
+  
+  
+  ```
+  /**
+   *      DATA_URL : 0,   Return image as base64-encoded string,
+   *      FILE_URI : 1,   Return image file URI,
+   *      NATIVE_URI : 2  Return image native URI
+   */
+     
+  destinationType?: number;
+  ```
+
+
+
+
 ## Photo Library
 
 ```
