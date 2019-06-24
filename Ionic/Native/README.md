@@ -30,9 +30,9 @@ constructor(private camera: Camera) { }
 
        ```
        /**
-        *      DATA_URL : 0,   Return image as base64-encoded string,
-        *      FILE_URI : 1,   Return image file URI,
-        *      NATIVE_URI : 2  Return image native URI
+        * DATA_URL : 0,   返回base64
+        * FILE_URI : 1,   返回file URI. default
+        * NATIVE_URI : 2  返回native URI
         */
 
        destinationType?: number;
