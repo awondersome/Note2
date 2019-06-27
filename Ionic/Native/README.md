@@ -66,6 +66,12 @@ constructor(private photoLibrary: PhotoLibrary) { }
    saveImage(url: string, album: AlbumItem | string, options?: GetThumbnailOptions): Promise< LibraryItem >
    ```
    
-   + url
+   + 路径
+   ```
+   @param url {string} URL of a file, or DataURL.
+   ```
    
-   + album
+   + 专辑
+   ```
+   @param album {AlbumItem | string} Name of an album or AlbumItem object.
+   ```
