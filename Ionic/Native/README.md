@@ -17,18 +17,19 @@ constructor(private camera: Camera) { }
    getPicture(options?: CameraOptions): Promise<any>
    ```
 
-   + CameraOptions
-
+   + 配置
+   
+      ```
+      @param {CameraOptions} [options] Options that you want to pass to the camera. Encoding type, quality, etc. Platform-specific quirks are described in the [Cordova plugin docs]
+      ```
+      
        ```
        /**
         * 像素范围 0-100. Default is 50
         */
 
        quality?: number;
-       ```
 
-
-       ```
        /**
         * DATA_URL : 0,   返回base64
         * FILE_URI : 1,   返回file URI. default
@@ -67,11 +68,13 @@ constructor(private photoLibrary: PhotoLibrary) { }
    ```
    
    + 路径
-   ```
-   @param url {string} URL of a file, or DataURL.
-   ```
+   
+      ```
+      @param url {string} URL of a file, or DataURL.
+      ```
    
    + 专辑
-   ```
-   @param album {AlbumItem | string} Name of an album or AlbumItem object.
-   ```
+   
+      ```
+      @param album {AlbumItem | string} Name of an album or AlbumItem object.
+      ```
