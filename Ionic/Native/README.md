@@ -20,7 +20,7 @@ constructor(private camera: Camera) { }
    + 配置
    
       ```
-      @param {CameraOptions} [options] Encoding type, quality, etc. Platform-specific quirks are described in the [Cordova plugin docs]
+      @param {CameraOptions} [options]
       ```
       
        ```
@@ -79,4 +79,14 @@ constructor(private photoLibrary: PhotoLibrary) { }
    
       ```
       @param album {AlbumItem | string} Name of an album or AlbumItem object.
+      ```
+      
+      ```
+      interface AlbumItem {
+          /**
+           * Local id of the album
+           */
+          id: string;
+          title: string;
+      }
       ```
